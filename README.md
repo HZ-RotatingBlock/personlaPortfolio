@@ -1,2 +1,1 @@
-# personlaPortfolio
-This is my first personal portfolio.
+我的个人简作品集：https://hz-rotatingblock.github.io/personlaPortfolio/
