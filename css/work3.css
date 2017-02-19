@@ -26,7 +26,7 @@ body{
 /*页面加载*/
 	#loading{
 		position:fixed;
-		width:1920px;
+		width:150%;
 		height:100%;
 		background-color:#2b2c30;
 		z-index:99;
