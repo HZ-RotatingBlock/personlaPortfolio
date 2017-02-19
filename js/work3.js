@@ -1,6 +1,17 @@
-
-window.addEventListener('scroll',navScroll);
+//页面加载动画
+/*window.onload=initPage();
+function initPage(){
+	var objLoading=document.getElementById("loading");
+	if(objLoading!=null){
+		objLoading.style.display="none";
+	}
+}*/
+window.addEventListener("load",function(){
+	var loading=document.getElementById("loading");
+	document.body.removeChild(loading);
+});
 //导航栏整体动画
+window.addEventListener('scroll',navScroll);
 function navScroll(e){
 	var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
 	if(scrollTop>50){
